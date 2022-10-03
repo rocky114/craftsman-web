@@ -1,0 +1,28 @@
+{
+  "status": 0,
+  "msg": "",
+  "data": {
+    "pages": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "children": [
+          {
+            "label": "用户管理",
+            "icon": "fa fa-cube",
+            "children": [
+              {
+                "label": "用户列表",
+                "url": "/crud/list",
+                "icon": "fa fa-list",
+                "schemaApi": "get:/pages/crud-list.json"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
